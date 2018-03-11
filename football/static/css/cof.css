@@ -1,0 +1,176 @@
+
+header{
+	height: 200px;
+	background-image: url('../image/001.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px
+}
+header h1{
+	text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+}
+.team-block{
+	box-shadow: 0px 1px 3px #ccc;
+	margin-bottom: 10px;
+	height: 70px;
+}
+.team-block img{
+    height: 70px;
+    width: 120px;
+}
+.team-block .media .media-left{
+	padding-top: 10px;
+}
+
+.team-block .media .media-left img{
+	height: 80px;
+}
+.team-block .media .media-body{
+	padding: 10px;
+}
+.team-block .media .media-body h4{
+	position: relative;
+}
+.team-block .media .media-body span{
+	position: absolute;
+	right: 25px;
+	color: #009688
+}
+footer {
+    height: 120px;
+    background-color: #18708b;
+}
+#col_9 {
+    margin-top: 20px;
+}
+#us {
+    padding: 0;
+    padding-top: 7px;
+    font-weight: bold;
+    color: #18708b;
+    font-size: 22px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 90px;
+
+}
+#imagsoti1{
+    padding: 0;
+    padding-left: 5px;
+
+}
+#instaa {
+    height: 65px;
+}
+#facebookk {
+    height: 75px;
+}
+#twitt {
+    height: 75px;
+}
+#sots_sety {
+    padding: 0;
+    height:80px;
+    background-color: #14596f;
+    margin-top: 20px;
+    border-radius: 55px;
+    box-shadow: 0px 1px 3px #093441;
+}
+#phoness {
+    margin-top: 30px;
+    color: #0a2e39;
+    text-shadow:0px 1px 3px #093441;
+}
+#copyy {
+    padding-top: 5px;
+    height: 30px;
+    background-color: #003b4e;
+    color: #090e10;
+}
+#match_name {
+    height: 100px;
+    margin-top: 10px;
+    padding: 0;
+}
+#back_1 {
+    padding: 0;
+}
+#back_2 {
+    padding: 0;
+}
+#back_3 {
+    padding-top: 25px;
+    padding-left: 18px;
+    color: #f7f7f7;
+    margin: 0;
+    position: relative;
+    height: 100px;
+    background-color: #cccccc;
+    box-shadow: 0px 0px 3px #1d1d1d;
+}
+#back_3 img{
+    height: 50px;
+}
+#match_teams {
+    text-align: center;
+}
+#match_teams_2 {
+    text-align: center;
+}
+#book_logo {
+    padding: 0;
+}
+#col_12_cof {
+    height: 70px;
+    padding: 0;
+}
+#cof_1x {
+    background-color: #e26262;
+    height: 70px;
+    padding-top: 18px;
+    box-shadow: 0 0 5px 1px #e26262;
+    color: #ececec;
+}
+#cof_x {
+    background-color: #a5a1a1;
+    height: 70px;
+    padding-top: 18px;
+    box-shadow: 0 0 5px 1px #a5a1a1;
+    color: #e8e8e6;
+}
+#cof_2x {
+    background-color: #4dbd40;
+    height: 70px;
+    padding-top: 18px;
+    box-shadow: 0 0 5px 1px #4dbd40;
+    color: #f3f3f3;
+}
+#cof_get_bet {
+    background-color: #003b4e;
+    text-align: right;
+    padding-right: 27px;
+    height: 70px;
+    color: #efefef;
+}
+#cof_get_bet span {
+    padding-top: 5px;
+}
+#team_1 {
+    background-color: #e26262;
+    box-shadow: 0 0 5px 1px #e26262;
+    color: #ececec;
+    height: 100px;
+}
+#team_2 {
+    background-color: #4dbd40;
+    color: #f3f3f3;
+    height: 100px;
+    box-shadow: 0 0 5px 1px #4dbd40;
+}
+#dollar {
+    color: #f5910d;
+}

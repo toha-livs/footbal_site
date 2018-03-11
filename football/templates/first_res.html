@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome to football</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    {%load staticfiles%}
+    <link rel="stylesheet" href="{% static 'css/first.css' %}"/>
+</head>
+<body>
+    <header>
+        <h1>the best way to get success</h1>
+    </header>
+    <div class="col-xs-12" id="col_12">
+            <div class="col-xs-3" id="col_3">
+                <h2>отзывы</h2>
+            </div>
+            <div class="col-xs-9" id="col_9">
+                <div class="row">
+                    {%for row in all%}
+                    <form action="" method="POST">
+                    {% csrf_token %}
+                        <div class="col-xs-6">
+                            <div class="team-block">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="http://www.pngmart.com/files/1/Football-Ball-PNG.png" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <h4><strong>{{row.team_1}}-{{row.team_2}}</strong> </h4>
+                                        <span>{{row.status}}</span>
+                                        <p>начало в {{row.time}}</p>
+                                        <a class="pull-right btn btn-info" href="http://127.0.0.1:8000/cof/{{row.id}}" type="button"><strong>get bet</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    {%endfor%}
+                </div>
+            </div>
+    </div>
+    <footer class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-3 col-xs-offset-1" id="phoness">
+                <h2><strong>+38(066)3601910</strong></h2>
+            </div>
+            <div class="col-xs-3 col-xs-offset-4" id="sots_sety">
+                <div class="media" id="imagsoti1">
+                    <div class="media-left" id="us">
+                        <h3><strong>МЫ</strong></h3>
+                    </div>
+                    <div class="media-body">
+                        <img id="twitt" src="{% static 'image/twit.png' %}">
+                        <img id="instaa" src="{% static 'image/insta.png' %}">
+                        <img id="facebookk" src="{% static 'image/facebook.png' %}">
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <div class="col-xs-12 text-center" id="copyy">
+        	&#169; 2018 Copyright Text
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+</body>
+</html>
